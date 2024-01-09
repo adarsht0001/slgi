@@ -57,7 +57,7 @@
                     <ul
                         class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"
                     >
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="/">Home</a></li>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#aboutus">About</a></li>
@@ -79,8 +79,7 @@
                         <h1>“Creating spaces that inspire”</h1>
                         <img
                             src="./images/SL logo-01 1.svg"
-                            height="350rem"
-                            width="300rem"
+                            class="img-fluid"
                         />
                         <div class="mb-md-0 mb-3">
                             <h4 class="text-white">
@@ -710,29 +709,24 @@
                                 </div>
                             </div>
 
-                            <div class="row">
+                            <form class="row">
                                 <div class="input-group mb-3">
-                                    <form
-                                        action="https://script.google.com/macros/s/AKfycbz0hyGFa2QDfCHPz_PFPvfRkc-ptWk5kgQElY_SXR0oEnGqmg1lLa1bYQIaO013VTpk/exec"
-                                        method="post"
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        name="email"
+                                        placeholder="Subscribe to our newsletter!"
+                                        aria-label="newsletter"
+                                        aria-describedby="basic-addon2"
+                                    />
+                                    <button
+                                        class="input-group-text btn btn-primary"
+                                        id="basic-addon2"
                                     >
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            name="email"
-                                            placeholder="Subscribe to our newsletter!"
-                                            aria-label="newsletter"
-                                            aria-describedby="basic-addon2"
-                                        />
-                                        <button
-                                            class="input-group-text btn btn-primary"
-                                            id="basic-addon2"
-                                        >
-                                            submit
-                                        </button>
-                                    </form>
+                                        submit
+                                    </button>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
